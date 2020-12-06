@@ -49,6 +49,7 @@ class App extends React.Component {
         readings: readings.concat(res.data)
       }));
     })
+    .catch(error => console.log(error));
   }
 
   clearReadings = function(){
