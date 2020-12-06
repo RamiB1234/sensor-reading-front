@@ -1,5 +1,7 @@
 # Sensor Reading Frontend
 
+![Screen-shot](/public/front.png)
+
 ## Introduction
 This is the frontend part of the project. Please check the [backend part](https://github.com/RamiB1234/sensor-reading-backend) repository.
 
