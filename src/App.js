@@ -89,7 +89,8 @@ class App extends React.Component {
           conditionalRowStyles={conditionalRowStyles}
           />
           <span>Total reading records: {readings.length}</span><br/>
-          <span>Fetching new records in {seconds}</span><br/>
+          <span style={{"color": "red"}}>Number of alerts: {readings.filter(x => x.alert===true).length}</span><br/>
+          <span>Fetching new records in {seconds} seconds</span><br/>
           <button className='btn btn-primary' onClick={e => this.fetchSensorData(e)}>Fetch</button>
           <button className='btn btn-danger' onClick={e => this.clearReadings(e)}>Clear</button>
         </div>

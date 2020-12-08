@@ -13,6 +13,7 @@ This is a single-page app that is build with `React.js` framework. It fetches th
 - Option to fetch the data manually
 - Option to clear fetched data from component's state
 - If the reading record has an alert, it will appear in `red` color
+- Shows total number of alerts
 
 ## NPM Packages
 - bootstrap
